@@ -1,0 +1,22 @@
+{
+  "name": "av1---typescript",
+  "version": "1.0.0",
+  "description": "Projeto AV1 em TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Igor Andrade",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/readline-sync": "^1.4.8",
+    "ts-node": "^10.9.2"
+  }
+}
